@@ -168,18 +168,14 @@ div#nav{
 	margin-bottom: 2em;
 }
 
-
-
-
-
-
 /*....................styles...................*/
-@media only screen and (max-width: @computerBreakpoint) {
+/*need explanation on how to incorerate this with mobile*/
+/*@media only screen and (max-width: @computerBreakpoint) {
   html.ios {
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
   }
-}
+}*/
 @media screen and (max-width: 350px){
 	.item{
 		width: 100%;
