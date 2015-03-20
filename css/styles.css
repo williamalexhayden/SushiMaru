@@ -26,13 +26,19 @@ background-image:url(../img/sushibar-01.jpg);
 }
 .item{
 	display: inline-block;
-	border: solid 1px;
+/*	border: solid 1px;*/
 	background-color: white;
+	background-image: -webkit-radial-gradient( rgba(255,255,255, .25) 0%,rgba(255,255,255, 1) 100%), url(../img/swirl.png);
+	background-image:  -moz-radial-gradient( rgba(255,255,255, .25) 0%,rgba(255,255,255, 1) 100%), url(../img/swirl.png);
+	background-image:  -o-radial-gradient( rgba(255,255,255, .25) 0%,rgba(255,255,255, 1) 100%), url(../img/swirl.png);
+	background-image:  -ms-radial-gradient( rgba(255,255,255, .25) 0%,rgba(255,255,255, 1) 100%), url(../img/swirl.png);
+	background-image: radial-gradient( rgba(255,255,255, .25) 0%,rgba(255,255,255, 1) 100%), url(../img/swirl.png);
+
 	border-radius:10px;
 	border-top: 2px solid rgba(197, 223, 159, 1);
 	border-left: 2px solid rgba(197, 223, 159, 1);
 	border-right: 2px solid rgba(197, 223, 159, 1);
-	margin-bottom: 0px;
+	margin-bottom: .5em;
 }
 img{
 	border-radius: 5%;
