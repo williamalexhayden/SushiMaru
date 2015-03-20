@@ -50,12 +50,17 @@ img{
 	box-shadow: black .1em .3em .3em 0em rgba(0,0,0,.5);
 	transition: all 0.7s ease;
 }
+.ui.huge.launch.right.attached.button{
+/*position: absolute;
+margin-top: -em;*/
+}
 ul{
 list-style-type: none;
 text-indent: none;
 }
 li{
 	list-style-type: none;
+	margin-left: -25px;
 }
 h1{
 	font-family: 'Lato', sans-serif, font-weight:700;
@@ -66,11 +71,28 @@ h1{
 	color: white;
 	padding-left: 5%
 }
+
+h2{
+	margin-left: 14px;
+}
+h2.banner{
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 2em;
+	margin-left: 0px;
+}
+
 h3{
 	margin-top: 1em;
 	margin-bottom: .75em;
 	text-align: center;
 	border-bottom: dashed 2px rgba(197, 223, 159, 1);
+}
+h4{
+	margin: 5px;
+	text-align: center;
+	border-top: dashed 1px rgba(197, 223, 159, 1);
+	border-bottom: dashed 1px rgba(197, 223, 159, 1);
 }
 h5{
 	font-family: 'Lato', sans-serif, font-weight:900;
@@ -80,11 +102,7 @@ h5{
 	padding-left: 10%;
 	margin-bottom:0px;
 }
-h2{
-	margin-top: 25px;
-	margin-bottom: 3em;
 
-}
 
 footer{
 	background-color: black;
@@ -92,7 +110,7 @@ footer{
 	margin-bottom: -5em;
 }
 body{
-	background-color: rgba(197, 223, 159, 1);
+	background-color: #f7f7f7;
 }
 p{
 	font-family: 'Lato', sans-serif, font-weight:300;
@@ -104,7 +122,23 @@ p{
     left: 1em;
     bottom: 1em;
 }
-
+.button{
+}
+/*.pushable{
+	background-color: white;
+}*/
+div#nav{
+	margin-top: 300px;
+	background-color: #fff;
+	opacity: .9;
+}
+.navigation{
+	margin-top: 107px;
+	margin-bottom: 93px;
+}
+.ui.launch.right.attached.button{
+	margin-bottom: 2em;
+}
 
 
 
@@ -116,39 +150,36 @@ p{
 	.item{
 		width: 100%;
 	}
-	h2{
-		text-align: center;
-	}
 	h1{
 		font-size: 3em;
 
 	}	
 	h5{
 		font-size:1.5em;
+	}
+	div#nav{
+		width: 50%;
 	}	
 }
 @media screen and (min-width:351px){
 	.item{
 		width: 49%;
 	}
-	h2{
-		text-align: center;
-	}
 	h1{
 		font-size: 3em;
 
 	}	
 	h5{
 		font-size:1.5em;
-	}	
+	}		
+	div#nav{
+		width: 50%;
+	}
 }
 @media screen and (min-width:450px){
 	.item{
 		width: 49%;
 	}
-	h2{
-		text-align: center;
-	}
 	h1{
 		font-size: 3em;
 
@@ -156,15 +187,15 @@ p{
 	h5{
 		font-size:1.5em;
 	}	
+	div#nav{
+		width: 250px;
+	}
 }
 @media screen and (min-width:750px){
 	.menu{
 		max-width: 90%;
 		margin-left: auto;
     	margin-right: auto;
-	}
-	h2{
-		text-align: center;
 	}
 	h1{
 		font-size: 3em;
@@ -183,9 +214,6 @@ p{
 	.item{
 		width: 33%;
 	}
-	h2{
-		text-align: center;
-	}
 	h1{
 		font-size: 3em;
 
@@ -202,9 +230,6 @@ p{
 	}
 	.item{
 		width: 24%;
-	}
-	h2{
-		text-align: center;
 	}
 	h1{
 		font-size: 3em;
