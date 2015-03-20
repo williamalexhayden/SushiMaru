@@ -66,6 +66,12 @@ h1{
 	color: white;
 	padding-left: 5%
 }
+h3{
+	margin-top: 1em;
+	margin-bottom: .75em;
+	text-align: center;
+	border-bottom: dashed 2px rgba(197, 223, 159, 1);
+}
 h5{
 	font-family: 'Lato', sans-serif, font-weight:900;
 	font-size: 2em;
@@ -98,9 +104,6 @@ p{
     left: 1em;
     bottom: 1em;
 }
-/*.page{
-	background-color: white;
-}*/
 
 
 
