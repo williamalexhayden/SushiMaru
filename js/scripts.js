@@ -6,4 +6,5 @@ $(".launch.button").mouseenter(function(){
     });
 $("#nav").sidebar({overlay: true})
     .sidebar('attach events','.ui.launch.button');
+
     
